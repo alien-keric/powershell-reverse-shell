@@ -1,5 +1,5 @@
 # powershell-reverse-shell
-its a simple powershell script took from nishanga a usefully for reverse shell most for windows, so as i can't get hard time most to get a reverse shell on windows
+its a simple powershell script took from nishang a usefully for reverse shell most for windows, so as i can't get hard time most to get a reverse shell on windows
 
 
 # how to run the powershell script and get a reverse shell(usage)
